@@ -50,7 +50,8 @@
             <AlternatingItemTemplate>
                 <tr style="background-color:#FFF8DC;">
                     <td>
-                        <asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Excluir" />
+                        <asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Excluir" OnClientClick="return confirm('Deseja realmente excluir?');" />
+
                         <asp:Button ID="EditButton" runat="server" CommandName="Edit" Text="Editar" />
                     </td>
                     <td>
@@ -124,7 +125,7 @@
             <ItemTemplate>
                 <tr style="background-color:#DCDCDC;color: #000000;">
                     <td>
-                        <asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Excluir" />
+                        <asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Excluir" OnClientClick="return confirm('Deseja realmente excluir?');" />
                         <asp:Button ID="EditButton" runat="server" CommandName="Edit" Text="Editar" />
                     </td>
                     <td>
@@ -176,7 +177,7 @@
             <SelectedItemTemplate>
                 <tr style="background-color:#008A8C;font-weight: bold;color: #FFFFFF;">
                     <td>
-                        <asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Excluir" />
+                        <asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Excluir" OnClientClick="return confirm('Deseja realmente excluir?');" />
                         <asp:Button ID="EditButton" runat="server" CommandName="Edit" Text="Editar" />
                     </td>
                     <td>
