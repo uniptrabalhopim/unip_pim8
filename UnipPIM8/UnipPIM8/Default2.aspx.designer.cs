@@ -10,6 +10,6 @@
 namespace UnipPIM8 {
     
     
-    public partial class About {
+    public partial class _Default {
     }
 }
