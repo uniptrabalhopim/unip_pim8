@@ -32,18 +32,41 @@
             </div>
         </div>
 
+        
+
+        <script src="Scripts/jquery-ui-1.12.1.js"></script>
+
+
+
         <div class="form-group">
             <asp:Label runat="server" AssociatedControlID="txtDataLimite" CssClass="col-md-2 control-label">Data limite</asp:Label>
             <div class="col-md-10">
 
-
-
+                
+                
                 <asp:TextBox runat="server" ID="txtDataLimite" CssClass="form-control" />
+
                 <br />
                 <asp:RequiredFieldValidator runat="server" ControlToValidate="txtDataLimite"
                     CssClass="text-danger" ErrorMessage="O campo data limite é obrigatório." />
             </div>
         </div>
+                
+
+        <script type="text/javascript">
+            $(function () {
+                $("#<%= txtDataLimite.ClientID %>").datepicker({
+                    dateFormat: 'dd/mm/yy',
+                    dayNames: ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'],
+                    dayNamesMin: ['D', 'S', 'T', 'Q', 'Q', 'S', 'S', 'D'],
+                    dayNamesShort: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom'],
+                    monthNames: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+                    monthNamesShort: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
+                    nextText: 'Próximo',
+                    prevText: 'Anterior'
+                });
+            });
+        </script>
 
 
         <!-- 

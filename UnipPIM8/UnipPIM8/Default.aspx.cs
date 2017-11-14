@@ -43,7 +43,7 @@ namespace UnipPIM8
                     // lblMensagem.Text = lblMensagem.Text + rd.GetValue(0).ToString() + "-" + rd.GetValue(1).ToString() + " <br />";
                     // lblMensagem.Visible = true;
 
-                    Message.InnerHtml = Message.InnerHtml + "<div class='alert'> <span class='closebtn'>&times;</span> <strong>Aviso!</strong> Tarefa com data limtie ultrapassada: " + lblMensagem.Text + rd.GetValue(0).ToString() + "-" + rd.GetValue(1).ToString() + "</div>";
+                    Message.InnerHtml = Message.InnerHtml + "<div class='alert'> <span class='closebtn'>&times;</span> <strong>Aviso!</strong> Tarefa com data limite ultrapassada: " + lblMensagem.Text + rd.GetValue(0).ToString() + "-" + rd.GetValue(1).ToString() + "</div>";
 
                 }
 
