@@ -8,7 +8,7 @@ cada tarefa);
 4. Utilizar banco de dados Microsoft Access.
 
 
-Proposta
+# Proposta
 Neste PIM VIII, composto de duas partes, uma teórica e outra prática, o aluno (ou grupo
 de alunos), deverá desenvolver em ASP.NET uma aplicação web para o gerenciamento das
 tarefas acadêmicas (trabalhos, provas, atividades complementares, DPs etc.) que você, aluno,
@@ -16,16 +16,14 @@ precisará entregar para concluir o Curso Superior de Tecnologia em Análise e Des
 de Sistemas. O desenvolvimento da aplicação em ASP.NET deverá ser gerenciado desde a
 definição do escopo até a entrega deste PIM VIII e deverá conter também:
 
-
-Atividades de gerenciamento do projeto:
+# Atividades de gerenciamento do projeto:
 1. Descrever o escopo do projeto;
 2. Elaborar a EAP;
 3. Desenvolver o cronograma;
 4. Apresentar o plano de risco;
 5. Definir os padrões de qualidade esperados.
 
-
-O PIM VIII abrange as disciplinas:
+# O PIM VIII abrange as disciplinas:
 • Gerenciamento de Projetos de Software
 • Desenvolvimento de Software para Internet
 • Tópicos Especiais de Programação Orientada a Objetos
